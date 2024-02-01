@@ -19,7 +19,7 @@ spec:
         - name: vprodb
           image: vprofile/vprofiledb:V1
 
-        volumeMounts:
+          volumeMounts:
             - mountPath: /var/lib/mysql
               name: vpro-db-data
           ports:
